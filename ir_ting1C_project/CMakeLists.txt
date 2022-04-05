@@ -4,7 +4,7 @@ project(sample
 )
 
 set(OpenCV_DIR /usr/local/lib)
-find_package(OpenCV 4.1.2 REQUIRED)
+find_package(OpenCV 3.4.15 REQUIRED)
 
 set(SRC_LIST
 	camera.cpp
